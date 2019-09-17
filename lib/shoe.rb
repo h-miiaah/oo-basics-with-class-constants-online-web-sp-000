@@ -9,6 +9,7 @@ class Shoe
     # if the BRANDS array doesn't include the brand, add the brand to the array.
     if !(BRANDS.include?(@brand))
       BRANDS << @brand
+    end
   end
 
   def cobble
